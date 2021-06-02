@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <style>
+        *
+        {
+            font-family: sans-serif;
+            padding: 0px;
+            margin: 0px;
+            color: white;
+        }
+        body
+        {
+            background: url('../project-2/black-wallpaper-with-motion-lines-background_1017-30151.jpg') no-repeat center center/cover;
+            background-size: 140%;
+            background-position: -400px 0;
+        }
+        .main
+        {
+            width: 400px;
+            margin: 100px auto 0px auto;
+        }
+        h1
+        {
+            text-align: center;
+            padding: 20px;
+        }
+        .register
+        {
+            background-color: rgba(95, 90, 90, 0.438);
+            width: 100%;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+        #register
+        {
+            margin: 40px;
+            padding-bottom: 20px;
+        }
+        label
+        {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+        #submit
+        {
+            display: block;
+            color: black;
+        }
+        #name, #email, #phone, #submit{
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: 3px;
+            width: 300px;
+        }
+        #submit
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            width: 100%px;
+            background-color: grey;
+            padding: 5px;
+        }
+        #submit:hover
+        {
+            background-color: black;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="register">
+        <form id="register">
+            <div><h1>Order Now</h1>
+            <label>Name: <br>
+            <input type="text" id="name" placeholder="enter your name">
+            </label>
+            <br><br>
+            </div>
+            <div><label>Gender: <br></label>
+                <input type="radio" name="gender" id="male">Male
+                <br>
+                <input type="radio" name="gender" id="female">Female
+                <br><br>
+                </div>
+            <div><label>Email: <br>
+                <input type="email" id="email" placeholder="enter your email">
+                </label>
+                <br><br>
+                </div>
+            <div><label>Phone: <br>
+                <input type="number" id="phone" placeholder="What is your Phone number">
+                </label>
+                <br><br>
+            </div>
+            <div><input type="submit" id="submit" name="Submit"></div>
+        
+                
+        </form>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
